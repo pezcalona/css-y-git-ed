@@ -1,0 +1,27 @@
+#contenedor {
+    background-color: #f5ff90;
+    height: 750px;
+    width: 800px;
+    display: inline-block;
+    }
+
+#menu {
+    background-color: red;
+    height: 750px;
+    width: 290px;
+    display: inline-block;
+
+}
+
+#contenido {
+    background-color: grey;
+    height: 750px;
+    width: 490px;
+    display: inline-block;
+}
+
+#perfiles {
+    background-color: lime;
+    width: 280px;
+    height: 100px;
+}
