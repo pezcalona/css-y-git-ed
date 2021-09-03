@@ -1,27 +1,116 @@
 #contenedor {
-    background-color: #f5ff90;
+    background-color:darkgray;
     height: 750px;
-    width: 800px;
+    width: 850px;
     display: inline-block;
     }
 
 #menu {
-    background-color: red;
+    background-color: #d6ffb7;
     height: 750px;
-    width: 290px;
+    width: 295px;
     display: inline-block;
+    vertical-align: top;
 
 }
 
 #contenido {
-    background-color: grey;
+    background-color: #ff9f1c;
     height: 750px;
-    width: 490px;
+    width: 550px;
     display: inline-block;
 }
 
 #perfiles {
-    background-color: lime;
-    width: 280px;
+    background-color: #b5e48c;
+    width: 295px;
+    height: 250px;
+}
+
+#opciones {
+    background-color: #718355;
+    width: 295px;
+    height: 400px;
+}
+
+#configuracion {
+    background-color: cadetblue;
+    width: 295px;
     height: 100px;
+}
+
+
+#foto {
+    background-color: lightseagreen;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+}
+
+#datos-usuario {
+    background-color: midnightblue;
+    width: 140px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.opcion{
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;    
+}
+
+.filas {
+    height: 180px;
+    width: 95%;
+    background-color: white;
+    margin: 5px;
+}
+
+.separadores {
+    height: 100px;
+    width: 48%;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.separadores h4 {
+    text-align: right;
+}
+
+.columna {
+    width: 27%;
+    height: 100%;
+    background-color: green;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+
+}
+
+.columna h5, columna h6, columna p {
+    margin: 0;
+}
+
+.mitad-columna {
+    width: 13%;
+    height: 100%;
+    background-color: green;
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+}
+.mitad-columna-foto{
+    margin: 0 auto;
+    width: 90%;
+    height: 30%;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10%;
 }
